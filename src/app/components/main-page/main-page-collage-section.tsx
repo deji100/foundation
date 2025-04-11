@@ -10,7 +10,9 @@ const MainPageCollageSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState(1100);
   const [layoutHeight, setLayoutHeight] = useState(0);
-  const [boxes, setBoxes] = useState<any[]>([]);
+  const [boxes, setBoxes] = useState<{ left: number; top: number; width: number; height: number }[]>([]);
+
+  console.log(containerWidth)
 
   useEffect(() => {
     const calculateLayout = (width: number) => {
