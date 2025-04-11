@@ -9,9 +9,9 @@ interface NewsPageProps {
   };
 }
 
-const News = async ({ params }: NewsPageProps) => {
-  const decodedTitle = decodeURIComponent(params.title);
-  const news = newsItems.find((item) => item.title === decodedTitle);
+export default async function News({ params }: NewsPageProps) {
+  const decodedTitle = decodeURIComponent(params?.title);
+  const news = newsItems.find((item) => item?.title === decodedTitle);
 
   return (
     <>
@@ -20,6 +20,4 @@ const News = async ({ params }: NewsPageProps) => {
       <MainPageNewsSection />
     </>
   );
-};
-
-export default News;
+}
