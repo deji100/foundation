@@ -9,7 +9,7 @@ interface NewsPageProps {
   };
 }
 
-const News = ({ params }: NewsPageProps) => {
+const News = async ({ params }: NewsPageProps) => {
   const decodedTitle = decodeURIComponent(params.title);
   const news = newsItems.find((item) => item.title === decodedTitle);
 
