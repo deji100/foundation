@@ -98,7 +98,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-[90px] left-0 w-full bg-white shadow-lg py-6 px-6 rounded-b-[24px] flex flex-col gap-4 text-[#154A62] font-medium md:hidden">
           <Link
-            href="/about"
+            href="/about-us"
             onClick={() => setIsOpen(false)}
             className="hover:text-green-400"
           >
