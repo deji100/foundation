@@ -16,13 +16,6 @@ const BeautifulVideoSection = () => {
         {/* Responsive Video Wrapper */}
         <div className="w-full aspect-video max-w-4xl rounded-xl shadow-lg overflow-hidden">
           {/* Example YouTube embed */}
-          {/* <iframe
-            className="w-full h-full"
-            src="https://youtu.be/hKQ3XQYTmx4?si=gm3K5mVmnLknCNDc" // Replace with your video link
-            title="GT Foundation Impact Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          /> */}
           <video
             className="w-full h-full object-cover"
             controls
@@ -31,7 +24,7 @@ const BeautifulVideoSection = () => {
             loop
           >
             <source
-              src="https://youtu.be/hKQ3XQYTmx4?si=gm3K5mVmnLknCNDc"
+              src="https://drive.google.com/uc?export=download&id=1uVvofikEneT-jB34L0QGykE026zxHWpz"
               type="video/mp4"
             />
             Your browser does not support the video tag.

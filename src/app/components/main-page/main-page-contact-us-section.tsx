@@ -37,15 +37,15 @@ const MainPageContactUsSection = () => {
               <div className="flex flex-col gap-4 text-[#154A62] text-sm sm:text-base">
                 <span className="flex items-start gap-3">
                   <FaLocationDot className="mt-1" />
-                  Address: 222 Test Ave Salem, IL 22222
+                  Address: 240 Independence Ave, Quincy , Ma, USA.
                 </span>
                 <span className="flex items-start gap-3">
                   <FaPhone className="mt-1" />
-                  Phone Number: +1 (222) 222-2222
+                  Phone Number: +1 (224) 534-9898, +1 (617) 468-6922
                 </span>
                 <span className="flex items-start gap-3">
                   <MdEmail className="mt-1" />
-                  Email Address: info@georgetaylorfoundation.com
+                  Email Address: info@gtcares.org
                 </span>
               </div>
             </div>

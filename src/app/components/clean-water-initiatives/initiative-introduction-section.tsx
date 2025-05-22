@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const InitiativePageIntroductionSection = () => {
   return (
     <div className="relative z-5 w-full max-w-screen-lg mx-auto mt-[-50px] sm:mt-[-70px] md:mt-[-100px] flex flex-col items-center gap-5 bg-[#57DD8F] px-6 sm:px-10 md:px-16 lg:px-20 py-8 md:py-10 rounded-lg text-[#154A62] text-sm sm:text-base leading-relaxed">
@@ -21,6 +23,12 @@ const InitiativePageIntroductionSection = () => {
         practices that empower communities and foster a healthier, more
         resilient future.
       </p>
+
+      <Link href="/Foundation-Fact-Sheet.pdf" target="_blank" download>
+        <button className="mt-4 px-6 py-2 bg-[#154A62] text-white hover:cursor-pointer rounded-md transition duration-300">
+          Download Our Brochure
+        </button>
+      </Link>
     </div>
   );
 };
