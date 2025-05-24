@@ -37,7 +37,7 @@ const MainPageContactUsSection = () => {
               <div className="flex flex-col gap-4 text-[#154A62] text-sm sm:text-base">
                 <span className="flex items-start gap-3">
                   <FaLocationDot className="mt-1" />
-                  Address: 240 Independence Ave, Quincy , Ma, USA.
+                  Address: 205 Independence Ave, Quincy , Ma, USA.                
                 </span>
                 <span className="flex items-start gap-3">
                   <FaPhone className="mt-1" />
