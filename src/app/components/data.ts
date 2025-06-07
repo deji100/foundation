@@ -128,40 +128,39 @@ export const testimonials = [
 
 export const newsItems = [
   {
-    title: "Empowering youth through tech training",
+    title: "Introducing STEM to young learners in Ogun",
     description:
-      "We recently hosted a tech bootcamp where over 200 young individuals gained hands-on experience in coding, digital marketing, and business development. This initiative is shaping future leaders by equipping them with in-demand skills.",
+      "The George Taylor Foundation introduced STEM learning to pupils in several primary schools across Ogun State. Through fun activities like basic coding games, science experiments, and tech demos, children were exposed to the wonders of science and technology.",
     description_paragraph_2:
-      "The program also included mentorship sessions and collaborative projects that allowed participants to apply their skills in real-world scenarios, boosting their confidence and career readiness.",
-    image: "/news1.webp",
-    date: "19 APR, 2025",
-  },
-  {
-    title: "Affordable housing project nears completion",
-    description:
-      "Our latest housing project for low-income families is 90% complete! These safe and sustainable homes will provide shelter for 50 families by mid-2025, helping them build a better future.",
-    description_paragraph_2:
-      "In collaboration with local contractors and community volunteers, this project is setting new standards for affordable living while fostering a strong sense of belonging and stability.",
-    image: "/news2.webp",
-    date: "19 APR, 2025",
-  },
-  {
-    title: "Healthcare outreach boosts rural communities",
-    description:
-      "Our mobile clinics have reached over 1,000 patients in remote areas, providing essential checkups and vaccinations, drastically improving health outcomes for under-resourced populations.",
-    description_paragraph_2:
-      "Partnering with local healthcare professionals, the initiative is addressing critical gaps in access and raising health awareness through community education and engagement.",
-    image: "/news3.webp",
-    date: "19 APR, 2025",
-  },
-  {
-    title: "Community clean-up drives environmental impact",
-    description:
-      "Volunteers gathered last weekend to clean parks and streets in four cities. This grassroots movement promotes sustainability and fosters civic pride in our neighborhoods.",
-    description_paragraph_2:
-      "With over 500 participants, the clean-up also included tree planting and recycling workshops, encouraging eco-conscious living and long-term environmental stewardship.",
+      "Over 250 pupils participated in hands-on sessions designed to ignite curiosity and spark early interest in innovation. Teachers praised the initiative for making STEM fun and accessible at the foundational level.",
     image: "/news4.webp",
-    date: "19 APR, 2025",
+    date: "07 JUN, 2025",
+  },
+  {
+    title: "Shaping young minds through life skills",
+    description:
+      "Our outreach to primary schools in Ogun State featured sessions on character building, kindness, honesty, and teamwork. Through storytelling, songs, and role-play, children learned core values to guide them through school and life.",
+    description_paragraph_2:
+      "The interactive sessions were delivered in age-appropriate formats, making the experience fun, memorable, and impactful. Educators noted a positive shift in pupil engagement and moral awareness.",
+    image: "/news2.webp",
+    date: "07 JUN, 2025",
+  },
+  {
+    title: "Supplying hope: Materials for young learners",
+    description:
+      "As part of our Ogun State school outreach, the George Taylor Foundation donated notebooks, pencils, reading books, and learning aids to hundreds of pupils in public primary schools.",
+    description_paragraph_2:
+      "The distribution was met with joy and gratitude from students and teachers alike. These supplies will help reduce learning barriers and ensure every child has the tools needed to thrive in the classroom.",
+    image: "/news3.webp",
+    date: "07 JUN, 2025",
+  },
+  {
+    title: "Play-based learning sparks creativity",
+    description:
+      "We organized art, games, and storytelling sessions for pupils in Ogun State as part of our outreach to promote learning through play. The fun-filled environment encouraged self-expression, critical thinking, and creativity.",
+    description_paragraph_2:
+      "Children created drawings, performed short dramas, and participated in group games that reinforced key lessons in literacy and teamwork. It was a joyful day of learning that reminded us all that education should be both fun and inspiring.",
+    image: "/news1.webp",
+    date: "07 JUN, 2025",
   },
 ];
-
