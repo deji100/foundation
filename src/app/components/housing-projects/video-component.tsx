@@ -16,26 +16,16 @@ const BeautifulVideoSection = () => {
         {/* Responsive Video Wrapper */}
         <div className="w-full aspect-video max-w-4xl rounded-xl shadow-lg overflow-hidden">
           {/* Example YouTube embed */}
-          {/* <iframe
+          <div className="w-full h-full">
+            <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
-              title="GT Foundation Impact Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              src="https://www.youtube.com/embed/zguTC4vFbXw?autoplay=1&mute=1&loop=1&playlist=zguTC4vFbXw"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
               allowFullScreen
-            /> */}
-          <video
-            className="w-full h-full object-cover"
-            controls
-            autoPlay
-            muted
-            loop
-          >
-            <source
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>

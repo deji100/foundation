@@ -22,7 +22,7 @@ const MainPageHero = () => {
           clean water initiatives, housing projects, and scholarships.
         </p>
         <Link
-          href="#"
+          href="https://www.paypal.com/pool/9gUBEnCd2J?sr=ancr"
           className="bg-green-400 hover:bg-green-500 text-[#154A62] font-semibold px-6 py-3 rounded-[12px] transition"
         >
           Donate{" "}

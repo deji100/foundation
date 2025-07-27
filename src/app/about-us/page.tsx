@@ -1,6 +1,6 @@
 import AboutPageIntroductionSection from "../components/about-page/about-page-introduction-section";
 import AboutPageMissionVisionSection from "../components/about-page/about-page-mission-vision-section";
-import AboutPageTeamSection from "../components/about-page/about-page-team-section";
+// import AboutPageTeamSection from "../components/about-page/about-page-team-section";
 import Hero from "../components/hero";
 
 const AboutPage = () => {
@@ -9,7 +9,7 @@ const AboutPage = () => {
       <Hero title="About Us" />
       <AboutPageIntroductionSection />
       <AboutPageMissionVisionSection />
-      <AboutPageTeamSection />
+      {/* <AboutPageTeamSection /> */}
     </>
   );
 };

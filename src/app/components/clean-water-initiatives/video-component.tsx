@@ -16,19 +16,16 @@ const BeautifulVideoSection = () => {
         {/* Responsive Video Wrapper */}
         <div className="w-full aspect-video max-w-4xl rounded-xl shadow-lg overflow-hidden">
           {/* Example YouTube embed */}
-          <video
-            className="w-full h-full object-cover"
-            controls
-            autoPlay
-            muted
-            loop
-          >
-            <source
-              src="https://drive.google.com/uc?export=download&id=1uVvofikEneT-jB34L0QGykE026zxHWpz"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+          <div className="w-full h-full">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/zguTC4vFbXw?autoplay=1&mute=1&loop=1&playlist=zguTC4vFbXw"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>

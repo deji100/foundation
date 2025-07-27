@@ -79,7 +79,7 @@ const Navbar = () => {
 
       {/* CTA Button */}
       <Link
-        href="#"
+        href="https://www.paypal.com/pool/9gUBEnCd2J?sr=ancr"
         className="hidden sm:flex bg-green-400 h-[45px] hover:bg-green-500 text-[#154A62] font-semibold px-6 py-2 rounded-[12px] items-center transition"
       >
         Donate
@@ -145,7 +145,7 @@ const Navbar = () => {
             News
           </Link>
           <Link
-            href="#"
+            href="https://www.paypal.com/pool/9gUBEnCd2J?sr=ancr"
             className="mt-4 bg-green-400 hover:bg-green-500 text-[#154A62] font-semibold px-6 py-2 rounded-[12px] transition text-center"
           >
             Donate
