@@ -41,7 +41,7 @@ const MainPageContactUsSection = () => {
                 </span>
                 <span className="flex items-start gap-3">
                   <FaPhone className="mt-1" />
-                  Phone Number: +1 (224) 534-9898, +1 (617) 468-6922
+                  Phone Number: +1 (617) 468-6922
                 </span>
                 <span className="flex items-start gap-3">
                   <MdEmail className="mt-1" />
